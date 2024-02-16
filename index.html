@@ -1,0 +1,1412 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Нумероскоп.Клуб</title>
+
+	<link rel="stylesheet" href="fonts/stylesheet.css" />
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+	<link rel="stylesheet" href="./css/normalize.css" />
+	<link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+	<div class="" id="overlay"></div>
+	<div class="wrapper">
+		<div class="hero-block">
+			<header class="header">
+				<div class="container">
+					<nav class="navbar navbar-expand-lg">
+						<div class="container-fluid">
+							<a class="navbar-brand" href="#"><img src="images/logo.svg" alt="logo" />
+								Нумероскоп.Клуб</a>
+							<button id="navbar-toggler" class="navbar-toggler show-menu" type="button"
+								data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+								aria-controls="navbarSupportedContent" aria-expanded="false"
+								aria-label="Toggle navigation">
+								<img class="show-burger" src="images/burger-btn.svg" alt="">
+								<img class="close-burger" src="images/close-btn.svg" alt="">
+							</button>
+							<div class="navbar-collapse justify-content-between collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav mb-lg-0 mb-2">
+									<li class="nav-item">
+										<a class="nav-link active" aria-current="page" href="#">О системе</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Формат</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Программа</a>
+									</li>
+								</ul>
+
+								<div class="header-actions">
+									<div class="header-call">
+										<a class="phone" href="tel:88003007010"><img src="images/phone-icon.svg"
+												alt="phone" /> 8 800
+											300 70 10</a>
+										<a class="mail" href="mailto:team@numeroscop.club">team@numeroscop.club</a>
+									</div>
+									<div class="header-cabinet">
+										<a href="#">
+											<img src="images/user-icon.svg" alt="user" /> Личный
+											кабинет</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</header>
+
+			<section class="hero">
+				<div class="container">
+					<div class="text-area">
+						<p class="hero-text1">
+							Специализированная платформа для работы и обучения специалистов
+							в области нумерологии, эзотерики и психологии
+						</p>
+
+						<h3 class="text-area__title"><span>Обучаем</span> нумерологии</h3>
+						<div class="text-area__para">
+							<img src="images/blue-arrow.svg" alt="" />
+							<span>Помогаем</span> выстроить продажи, найти клиентов,
+							работать с ними и достойно зарабатывать
+						</div>
+					</div>
+
+					<div class="offer-block">
+						<div class="row row-gap-5">
+							<div class="col-lg-6 offer-block-order-2">
+								<div class="offer-item">
+									<div class="offer-item__img">
+										<img src="images/offer-img-1.svg" alt="offer-img" />
+									</div>
+									<div class="offer-item__info offer-item__info-blue">
+										<p class="offer-item__info-title">Опытным специалистам</p>
+										<p class="offer-item__info-text">
+											Поднимаем квалификацию, помогаем выстроить работу с
+											клиентами, чтобы кратно увеличить свой доход без
+											выгорания и стресса
+										</p>
+
+										<div class="offer-boxes">
+											<div class="row gap-3">
+												<div class="col-lg-6 offer-boxes__col">
+													<p class="offer-boxes__text">
+														<span>Вы уже давно работаете с клиентами</span> в
+														одной из мягких ниш: астрология, нумерология,
+														психология, таро, здоровье.
+													</p>
+													<span class="offer-boxes__number"> 01 </span>
+												</div>
+												<div class="col-lg-6 offer-boxes__col">
+													<p class="offer-boxes__text">
+														<span>Вы понимаете, как важно найти</span>
+														глубинную причину проблемы клиента, заинтересовать
+														его, чтобы человек поверил и начал работать над
+														собой.
+													</p>
+													<span class="offer-boxes__number"> 02 </span>
+												</div>
+												<div class="col-lg-6 offer-boxes__col">
+													<p class="offer-boxes__text">
+														<span>Но вам не всегда хватает знаний, </span>
+														чтобы убедительно преподнести информацию по
+														проблеме клиента. Возникают сомнения и вы
+														начинаете тратить нервы и время на поиск решения.
+													</p>
+													<span class="offer-boxes__number"> 03 </span>
+												</div>
+												<div class="col-lg-6 offer-boxes__col">
+													<p class="offer-boxes__text">
+														<span>Вы хотите зарабатывать больше,</span> чтобы
+														вкладываться в развитие, но “сарафана” уже не
+														хватает, а доход часто не соответствует
+														затраченным ресурсам.
+													</p>
+													<span class="offer-boxes__number"> 04 </span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 offer-block-order-1">
+								<div class="offer-item">
+									<div class="offer-item__img">
+										<img src="images/offer-img-2.svg" alt="offer-img" />
+									</div>
+									<div class="offer-item__info offer-item__info-green">
+										<p class="offer-item__info-title">Начинающим</p>
+										<p class="offer-item__info-text">
+											Помогаем начинающим нумерологам стать уверенными
+											специалистами и начать консультировать за деньги
+										</p>
+
+										<div class="offer-boxes">
+											<div class="row gap-3">
+												<div class="col-lg-6 offer-boxes__col">
+													<p class="offer-boxes__text">
+														<span>Если вы трудитесь в бухгалтерской,
+															юридической</span>или иной корпоративной сфере, но устали от
+														рутины
+														и задумываетесь о смене деятельности.
+													</p>
+													<span class="offer-boxes__number"> 01 </span>
+												</div>
+												<div class="col-lg-6 offer-boxes__col">
+													<p class="offer-boxes__text">
+														<span>Вам нравится работать с числами,</span>
+														общаться с людьми и помогать им. Вы мечтаете о
+														том, чтобы заниматься любимым делом и при этом не
+														потерять финансовую свободу и стабильность.
+													</p>
+													<span class="offer-boxes__number"> 02 </span>
+												</div>
+												<div class="col-lg-6 offer-boxes__col">
+													<p class="offer-boxes__text">
+														<span>Но боитесь, что вам не хватит знаний,
+														</span>
+														внутренней уверенности и энергии чтобы оказать
+														качественную услугу своим клиентам.
+													</p>
+													<span class="offer-boxes__number"> 03 </span>
+												</div>
+												<div class="col-lg-6 offer-boxes__col">
+													<p class="offer-boxes__text">
+														<span>Вам не хватает целостной картины</span> о
+														том как найти свою нишу, что говорить клиентам,
+														как подавать в соцсетях чтобы стабильно
+														зарабатывать.
+													</p>
+													<span class="offer-boxes__number"> 04 </span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="hero-btn__area d-flex flex-wrap justify-content-center gap-3">
+						<a class="btn btn-register" href="#">зарегистрироваться</a>
+						<a class="btn btn-view" href="#">смотреть программу</a>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<section class="package">
+			<div class="container">
+				<div class="title text-center">
+					<h2>
+						Получите единый пакет навыков <br />
+						и инструментов вместо теории
+					</h2>
+				</div>
+
+				<div class="row row-gap-4 mt-5">
+					<div class="col-lg-4">
+						<div class="package-item">
+							<img class="package-item__icon" src="images/folder-icon.svg" alt="icon" />
+							<p class="package-item__text">
+								<span>Повысьте квалификацию</span> до экспертного уровня,
+								пройдя обучение по спецпрограмме “Нумерология ПРО”.
+							</p>
+
+							<div class="package-item__course">
+								<img class="page-item__course-icon" src="images/book-icon.svg" alt="" />
+								<ul class="package-item__course-list">
+									<li>Курс-практикум</li>
+									<li>20 уроков</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="package-item">
+							<img class="package-item__icon" src="images/comunity-icon.svg" alt="icon" />
+							<p class="package-item__text">
+								<span>Постройте с нуля или оптимизируйтке </span> свою
+								собственную систему привлечения клиентов.
+							</p>
+
+							<div class="package-item__course">
+								<img class="page-item__course-icon" src="images/book-icon.svg" alt="" />
+								<ul class="package-item__course-list">
+									<li>Курс-практикум</li>
+									<li>11 уроков</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="package-item">
+							<img class="package-item__icon" src="images/todo-list-icon.svg" alt="icon" />
+							<p class="package-item__text">
+								<span>Научитесь эффективно </span> проводить свои
+								консультации, по четкому сценарию, на большие чеки и без
+								стресса.
+							</p>
+
+							<div class="package-item__course">
+								<img class="page-item__course-icon" src="images/book-icon.svg" alt="" />
+								<ul class="package-item__course-list">
+									<li>Курс-практикум</li>
+									<li>11 уроков</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="package-item">
+							<img class="package-item__icon" src="images/comment.svg" alt="icon" />
+							<p class="package-item__text">
+								<span>Получайте оперативную онлайн-поддержку </span> от
+								экспертов-нумерологов по вопросам на которые вам сложно найти
+								ответ.
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="package-item">
+							<img class="package-item__icon" src="images/things.svg" alt="icon" />
+							<p class="package-item__text">
+								<span>Снимите с себя рутину, </span> используйте
+								автоматизированную платформу для быстрой диагностики, ведения
+								клиентской базы, и создания отчетов.
+							</p>
+						</div>
+					</div>
+
+					<div class="col-lg-4">
+						<div class="package-item">
+							<img class="package-item__icon" src="images/social.svg" alt="icon" />
+							<p class="package-item__text">
+								<span>Получите доступ к бирже клиентов. </span> Делайте
+								блиц-расчеты. Развивайте свой бренд, выкладывая кейсы и
+								истории успеха.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="goal-section p-5">
+					<div class="row align-items-center">
+						<div class="col-lg-4 goal-order-2">
+							<div class="goal-img">
+								<img src="images/goal-img.png" alt="goal img" />
+							</div>
+						</div>
+						<div class="col-lg-8 goal-order-1">
+							<div class="title">
+								<h2>
+									Начните двигаться к своей цели уже с первого месяца обучения
+								</h2>
+							</div>
+							<p class="goal-text">
+								Для каждого ученика проектируется индивидуальный трек обучения
+								на основе его уровня знаний, целей и временных ресурсов.
+							</p>
+							<div class="hero-btn__area d-flex flex-wrap align-items-center gap-3">
+								<a class="btn btn-register" href="#">зарегистрироваться</a>
+								<a class="btn btn-view" href="#">смотреть программу</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="information">
+			<div class="container">
+				<div class="title">
+					<h2>
+						Используйте верифицированные знания <br />
+						о нумерологии, без противоречивой <br />
+						и размытой информации
+					</h2>
+				</div>
+				<div class="row row-gap-4">
+					<div class="col-lg-4 d-flex align-items-end">
+						<div class="information-item information-item__blue">
+							<img src="images/number-icon.svg" alt="number" />
+							<p class="information-item__text1">
+								Нумерология идеально подходит для решения большинства задач
+								ваших клиентов, потому, что дает четкие и однозначные ответы
+								на основе чисел, легка в освоении и не требует длительной
+								практики в отличие от астрологии или таро.
+							</p>
+
+							<p class="information-item__text2">
+								Однако обилие всевозможных школ и направлений использующих
+								собственные методы расчетов и интерпретации чисел, создает
+								хаос в голове у обучающихся и, как правило приводит к
+								проблемам с получением качественной и правдивой информации.
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-3 d-flex align-items-center justify-content-center">
+						<div class="information-img">
+							<img src="images/verified.svg" alt="verified medal" />
+						</div>
+					</div>
+					<div class="col-lg-5">
+						<div class="information-item information-item__green">
+							<img src="images/numerology-icon.svg" alt="number" />
+							<p class="information-item__text1">
+								Курс “Нумерология ПРО” был специально разработан командой
+								проекта Нумероскоп.Ру (имеет более 2 млн пользователей)
+								занимающейся изучением и продвижением нумерологии с 2006 года.
+							</p>
+
+							<p class="information-item__text2">
+								Основная ценность нумеролога в правильной интерпретации.
+								Изучив предложенные в курсе механики, Вы будете на голову
+								сильнее большинства нумерологов, не владеющих подходом,
+								разработанным командой Нумероскоп.ру™
+							</p>
+							<div class="information-green__block">
+								Мы дадим вам строгую и последовательную систему знаний.
+								Главная ценность которых, в том, что они прошли проверку на
+								тысячах реальных людей.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="system">
+			<div class="container">
+				<div class="title text-center">
+					<h2>
+						Создайте собственную
+						<span class="sytem-title__span">систему
+							<img class="long-arrow" src="images/long-arrow.svg" alt="long-arrow" />
+						</span>
+						<br />
+						привлечения клиентов
+					</h2>
+
+					<p class="subtitle text-center">
+						Для каждого ученика проектируется индивидуальный трек обучения
+						<br />
+						на основе его уровня знаний, целей и временных ресурсов
+					</p>
+				</div>
+
+				<div class="row row-gap-4 mt-5 system-box">
+					<div class="col-lg-3">
+						<div class="system-item">
+							<div class="system-item__number">01</div>
+							<p class="system-item__title">Узнаете</p>
+							<p class="system-item__subtitle">
+								Какая бизнес-модель больше всего подходит именно вам
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="system-item">
+							<div class="system-item__number">02</div>
+							<p class="system-item__title">Сформируете</p>
+							<p class="system-item__subtitle">
+								Свою линейку продуктов и лид-магнитов
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="system-item">
+							<div class="system-item__number">03</div>
+							<p class="system-item__title">Настроите</p>
+							<p class="system-item__subtitle">
+								Свой телеграм-канал для привлечения клиентов
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="system-item">
+							<div class="system-item__number">04</div>
+							<p class="system-item__title">Составите</p>
+							<p class="system-item__subtitle">
+								Контент-план, поймете, о чем нужно писать и когда
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="system-item">
+							<div class="system-item__number">05</div>
+							<p class="system-item__title">Привлечете</p>
+							<p class="system-item__subtitle">
+								Первых пользователей в свой канал
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="system-item">
+							<div class="system-item__number">06</div>
+							<p class="system-item__title">Разберетесь</p>
+							<p class="system-item__subtitle">
+								С тем какие цены назначать, за что и и кому
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="system-item">
+							<div class="system-item__number">07</div>
+							<p class="system-item__title">Научитесь</p>
+							<p class="system-item__subtitle">
+								Писать и формулировать так, чтобы у вас покупали
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="system-item">
+							<div class="system-item__number">08</div>
+							<p class="system-item__title">Узнаете</p>
+							<p class="system-item__subtitle">
+								Когда и как правильно делегировать и масштабироваться
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- system slider -->
+				<div class="swiper systemSwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="system-item">
+								<div class="system-item__number">01</div>
+								<p class="system-item__title">Узнаете</p>
+								<p class="system-item__subtitle">
+									Какая бизнес-модель больше всего подходит именно вам
+								</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="system-item">
+								<div class="system-item__number">02</div>
+								<p class="system-item__title">Сформируете</p>
+								<p class="system-item__subtitle">
+									Свою линейку продуктов и лид-магнитов
+								</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="system-item">
+								<div class="system-item__number">03</div>
+								<p class="system-item__title">Настроите</p>
+								<p class="system-item__subtitle">
+									Свой телеграм-канал для привлечения клиентов
+								</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="system-item">
+								<div class="system-item__number">04</div>
+								<p class="system-item__title">Составите</p>
+								<p class="system-item__subtitle">
+									Контент-план, поймете, о чем нужно писать и когда
+								</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="system-item">
+								<div class="system-item__number">05</div>
+								<p class="system-item__title">Привлечете</p>
+								<p class="system-item__subtitle">
+									Первых пользователей в свой канал
+								</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="system-item">
+								<div class="system-item__number">06</div>
+								<p class="system-item__title">Разберетесь</p>
+								<p class="system-item__subtitle">
+									С тем какие цены назначать, за что и и кому
+								</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="system-item">
+								<div class="system-item__number">07</div>
+								<p class="system-item__title">Научитесь</p>
+								<p class="system-item__subtitle">
+									Писать и формулировать так, чтобы у вас покупали
+								</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="system-item">
+								<div class="system-item__number">08</div>
+								<p class="system-item__title">Узнаете</p>
+								<p class="system-item__subtitle">
+									Когда и как правильно делегировать и масштабироваться
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+				<!-- system slider -->
+
+				<div class="hero-btn__area d-flex flex-wrap justify-content-center mt-5 gap-3">
+					<a class="btn btn-register" href="#">зарегистрироваться</a>
+					<a class="btn btn-view" href="#">смотреть программу</a>
+				</div>
+
+				<div class="system-soft">
+					<div class="title text-center">
+						<h2>
+							Используйте готовые и проверенные сценарии <br />
+							коммуникации с клиентами разработанные <br />
+							специально для мягких ниш
+						</h2>
+					</div>
+
+					<div class="row justify-content-center row-gap-4 mt-5">
+						<div class="col-lg-3">
+							<div class="system-soft__item">
+								<img src="images/ptichka.svg" alt="ptichka" />
+								<p class="system-soft__item-text">
+									<span>Применяйте чек-лист “скоринга”,</span> чтобы быстро
+									отсеивать клиентов, которые съедают время и не приносят
+									денег
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="system-soft__item">
+								<img src="images/ptichka.svg" alt="ptichka" />
+								<p class="system-soft__item-text">
+									<span>Используйте приемы </span> эмоциональной подстройки,
+									чтобы создать атмосферу доверия во время консультации
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="system-soft__item">
+								<img src="images/ptichka.svg" alt="ptichka" />
+								<p class="system-soft__item-text">
+									<span>Научитесь правильно реагировать </span> на сложные
+									вопросы и досрочно завершать консультацию при необходимости
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="system-soft__item">
+								<img src="images/ptichka.svg" alt="ptichka" />
+								<p class="system-soft__item-text">
+									<span>Научителсь четко выснять задачу</span>
+									и цель клиента, чтобы качестенно подготовиться к консултации
+									и блестяще провести её
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="system-soft__item">
+								<img src="images/ptichka.svg" alt="ptichka" />
+								<p class="system-soft__item-text">
+									<span>Работайте уверенно,</span>
+									используя пошаговый план проведения консультации
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="system-soft__item">
+								<img src="images/ptichka.svg" alt="ptichka" />
+								<p class="system-soft__item-text">
+									<span>Узнайте, как правильно</span>
+									озвучивать цену и предлагать свои услуги с позиции ценности
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="system-soft__item">
+								<img src="images/ptichka.svg" alt="ptichka" />
+								<p class="system-soft__item-text">
+									<span>Удвойте свой заработок, </span>
+									внедрив программы лояльнсоти и выстроив повторную работу с
+									клиентами
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="routine">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7">
+						<div class="title">
+							<h2>
+								Избавьтесь от рутины, используйте освободившееся время, чтобы
+								помогать и
+								<span class="routine-title__span">зарабатывать больше</span>
+								<img class="blue-bottom-arrow" src="images/blue-bottom-arrow.svg" alt="">
+							</h2>
+						</div>
+
+						<div class="routine-text__box">
+							Получите доступ к системе для ведения клиентов, автоматических
+							вычислений и создания отчетов
+						</div>
+
+						<img class="routine__img" src="images/routine-img.svg" alt="routine img" />
+					</div>
+					<div class="col-lg-5">
+						<div class="row row-gap-4">
+							<div class="col-lg-12">
+								<div class="routine-item">
+									<div class="routine-item__icon">
+										<img src="images/stack-icon.svg" alt="stack-icon" />
+										<p>
+											Быстро находите подходящую инфу по проблеме клиента из
+											разных источников
+										</p>
+									</div>
+
+									<p class="routine-item__text">
+										В нашу платформу интегрирована информация из самых
+										популярных школ эзотерики: Нумерология, Матрица судьбы,
+										Астрология, Квадрат Пифагора и др.
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-12">
+								<div class="routine-item">
+									<div class="routine-item__icon">
+										<img src="images/calc-icon.svg" alt="calc-icon" />
+										<p>
+											Мантикум делает все расчеты автоматически, обеспечивая
+											100% точность данных
+										</p>
+									</div>
+
+									<p class="routine-item__text">
+										Каждый специалист в области эзотерики несет
+										ответственность за судьбу человека, которому помогает.
+										Очень важно, чтобы информация, которую он дает, была
+										точной и надежной
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-12">
+								<div class="routine-item">
+									<div class="routine-item__icon">
+										<img src="images/chart-icon.svg" alt="chart-icon" />
+										<p>
+											Создавайте убедительные отчеты с графиками и таблицами
+											для ваших клиентов.
+										</p>
+									</div>
+
+									<p class="routine-item__text">
+										Используйте библиотеку готовых отчетов: Анализ личности,
+										Совместимость Смена работы, Переезд, Прогнозы,Бизнес ...
+										Создавайте и используйте собственные отчеты и описания к
+										ним
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="hero-btn__area d-flex flex-wrap justify-content-center mt-5 gap-3">
+					<a class="btn btn-register" href="#">зарегистрироваться</a>
+					<a class="btn btn-view" href="#">смотреть программу</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="grow">
+			<div class="container">
+				<div class="title text-center">
+					<h2>
+						Наращивайте свою клиентскую базу, увеличивайте узнаваемость личного бренда используя
+						медиа-возможности портала <span class="numerocop-ru">Нумероскоп.Ру</span>
+					</h2>
+				</div>
+
+				<div class="row grow-row">
+					<div class="col-lg-4">
+						<div class="grow-item">
+							<img src="images/grow-img-1.svg" alt="Grow img">
+							<p class="grow-item__text">Получите доступ к закрытому чату, в котором вы сможете отточить
+								свои навыки, отвечая на запросы пользователей, а также сделать часть из них своими
+								будущими клиентами.</p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="grow-item">
+							<img src="images/grow-img-2.svg" alt="Grow img">
+							<p class="grow-item__text">В любой момент обращайтесь за помощью
+								к сообществу экспертов-нумерологов, чтобы получить ответ на сложный вопрос или разобрать
+								нестандартную ситуацию.</p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="grow-item">
+							<img src="images/grow-img-3.svg" alt="Grow img">
+							<p class="grow-item__text">Делитесь своими успехами, публикуйте истории
+								и кейсы своих клиентов. Развивайте личный бренд. Для этого мы предоставляем вам места в
+								рассылках, соцсетях и на портале <a class="numeroscop-link" href="#">Нумероскоп.Ру</a>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<section class="certificate">
+					<div class="container">
+						<div class="certificate-block">
+							<div class="title text-center">
+								<h2>
+									Станьте сертифицированным нумерологом <br> с подтверждением самого авторитетного
+									<br>
+									портала в СНГ
+								</h2>
+							</div>
+
+							<div class="row mt-5">
+								<div class="col-lg-6 certificate-order-2">
+									<div class="certificate-img">
+										<img src="images/certificate.png" alt="certificate">
+									</div>
+								</div>
+								<div class="col-lg-6 certificate-order-1">
+									<div class="course-info__box">
+										Курс “Нумерология ПРО” был запущен в 2020 году,
+										за это время мы выпустили более 800 учеников
+									</div>
+
+									<div>
+										<p class="certificate-info__text">Наше обучение успешно завершили те, кто:</p>
+										<ul class="certificate-info__list">
+											<li>
+												<img src="images/info-icon.svg" alt="">
+												<p>Пришли “для себя” чтобы своевременно решать проблемы, знать
+													правильный
+													вариант возможного поведения, избегать ошибок и понимать, как
+													строить
+													свое будущее.</p>
+											</li>
+											<li>
+												<img src="images/question-icon.svg" alt="">
+												<p>Уже были экспертами в нумерологии и получили целостную систему знаний
+													о
+													нумерологии, новые инструменты и возможности для решения сложных и
+													нестандартных вопросов своих клиентов.</p>
+											</li>
+										</ul>
+									</div>
+
+								</div>
+							</div>
+
+
+							<div class="hero-btn__area d-flex flex-wrap justify-content-center gap-3 mt-5">
+								<a class="btn btn-register" href="#">зарегистрироваться</a>
+								<a class="btn btn-view" href="#">смотреть программу</a>
+							</div>
+
+						</div>
+					</div>
+				</section>
+
+			</div>
+		</section>
+
+
+		<section class="tariffs">
+			<div class="container">
+				<div class="tariffs-block">
+					<div class="title text-center">
+						<h2>
+							Тарифы
+						</h2>
+					</div>
+
+					<div class="row tariffs-row">
+						<div class="col-lg-6">
+							<div class="tariffs-item tariffs-item__blue">
+								<div class="tariffs-icons">
+									<img src="images/blue-star.svg" alt="blue-star">
+									<img src="images/light-blue-icon.svg" alt="blue-star">
+								</div>
+								<p class="tariffs-item__title">Основной тариф</p>
+								<div class="tariffs-item__text-block">
+									Домашние задания проверяют кураторы
+								</div>
+								<ul class="tariffs-item__list">
+									<li class="tariffs-item__list-item">
+										<img src="images/check-icon.svg" alt="check-icon">
+										Курс-практикум “Нумерология ПРО 2024”
+									</li>
+									<li class="tariffs-item__list-item"> <img src="images/check-icon.svg"
+											alt="check-icon"> Доп-курс “Нумерология
+										отношений”</li>
+									<li class="tariffs-item__list-item"> <img src="images/check-icon.svg"
+											alt="check-icon"> Pdf файлы и практические
+										инструкции</li>
+									<li class="tariffs-item__list-item"> <img src="images/check-icon.svg"
+											alt="check-icon"> Лицензия на использование
+										нумерологических трактовок и материалов курсов для соц-сетей и клиентов</li>
+									<li class="tariffs-item__list-item"> <img src="images/check-icon.svg"
+											alt="check-icon"> Персональный личный кабинет
+										с отслеживанием прогресса обучения</li>
+									<li class="tariffs-item__list-item"> <img src="images/check-icon.svg"
+											alt="check-icon"> Подробная обратная связь на
+										домашние задания
+										с рекомендациями по всем тематическим блокам</li>
+									<li class="tariffs-item__list-item"> <img src="images/check-icon.svg"
+											alt="check-icon"> Сертификат, при условии
+										аттестации</li>
+									<li class="tariffs-item__list-item"> <img src="images/check-icon.svg"
+											alt="check-icon"> Разработка персональной
+										системы привлечения клиентов в рамках спецкурса</li>
+									<li class="tariffs-item__list-item"> <img src="images/check-icon.svg"
+											alt="check-icon"> Спецкурс “Консультирование,
+										работа с клиентами, доп-продажи”</li>
+									<li class="tariffs-item__list-item tariffs-item__list-inner"> <img class="me-1"
+											src="images/blue-info-icon.svg" alt="info-icon">
+										Доступ к платформе «Мантикум»:
+										<ul class="access-list">
+											<li>Модуль CRM</li>
+											<li>Модуль диагностики:
+
+												<ul class="access-list__inner">
+													<li>классическая нумерология;</li>
+													<li>прогностика;</li>
+													<li>психоматрица;</li>
+													<li>квадрат Ло-Шу;</li>
+													<li>матрица судьбы;</li>
+													<li>натальная карта;</li>
+												</ul>
+											</li>
+											<li>Стандартные отчеты для клиентов</li>
+										</ul>
+
+									</li>
+								</ul>
+
+								<div class="tariffs-dashed__block">
+									<ul>
+										<li>
+											<img src="images/blue-info-icon.svg" alt="check-icon">
+											Доступ к закрытому чату для поиска клиентов
+										</li>
+										<li>
+											<img src="images/blue-info-icon.svg" alt="check-icon">
+											Доступ для размещения своей рекламы на медиа-платформе Нумероскоп.ру
+										</li>
+										<li>
+											<img src="images/check-icon.svg" alt="check-icon">
+											Доступ в группу для консультации по вопросам работы
+											с клиентами и применения нумерологии
+										</li>
+									</ul>
+								</div>
+
+								<div class="tariffs-price">
+									от 7 500 руб. в месяц
+								</div>
+
+								<div class="hero-btn__area d-flex flex-column justify-content-center gap-3 tariffs-btn">
+									<a class="btn btn-register" href="#" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">оплатить полностью</a>
+									<a class="btn btn-view" href="#">оплатить частями</a>
+									<a class="btn btn-purple" href="#">оформить рассрочку</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="tariffs-item tariffs-item__green">
+								<div class="tariffs-icons">
+									<img src="images/green-star.svg" alt="green-star">
+									<img src="images/green-star.svg" alt="green-star">
+								</div>
+								<p class="tariffs-item__title tariffs-item__title-green">Наставничество с экспертом</p>
+								<div class="tariffs-item__text-block tariffs-item__text-block-green">
+									Индивидуальная работа с экспертом. <span>Всего 3 места</span>
+								</div>
+								<ul class="tariffs-item__list">
+									<li class="tariffs-item__list-item">
+										<img src="images/green-check-icon.svg" alt="check-icon">
+										Курс-практикум “Нумерология ПРО 2024”
+									</li>
+									<li class="tariffs-item__list-item"> <img src="images/green-check-icon.svg"
+											alt="check-icon"> Доп-курс “Нумерология
+										отношений”</li>
+									<li class="tariffs-item__list-item"> <img src="images/green-check-icon.svg"
+											alt="check-icon"> Pdf файлы и практические
+										инструкции</li>
+									<li class="tariffs-item__list-item"> <img src="images/green-check-icon.svg"
+											alt="check-icon"> Лицензия на использование
+										нумерологических трактовок и материалов курсов для соц-сетей и клиентов</li>
+									<li class="tariffs-item__list-item"> <img src="images/green-check-icon.svg"
+											alt="check-icon"> Персональный личный кабинет
+										с отслеживанием прогресса обучения</li>
+									<li class="tariffs-item__list-item"> <img src="images/green-check-icon.svg"
+											alt="check-icon"> Подробная обратная связь на
+										домашние задания
+										с рекомендациями по всем тематическим блокам</li>
+									<li class="tariffs-item__list-item"> <img src="images/green-check-icon.svg"
+											alt="check-icon"> Сертификат, при условии
+										аттестации</li>
+									<li class="tariffs-item__list-item"> <img src="images/green-check-icon.svg"
+											alt="check-icon"> Разработка персональной
+										системы привлечения клиентов в рамках спецкурса</li>
+									<li class="tariffs-item__list-item"> <img src="images/green-check-icon.svg"
+											alt="check-icon"> Спецкурс “Консультирование,
+										работа с клиентами, доп-продажи”</li>
+									<li class="tariffs-item__list-item tariffs-item__list-inner"> <img class="me-1"
+											src="images/green-info-icon.svg" alt="info-icon">
+										Доступ к платформе «Мантикум»:
+										<ul class="access-list">
+											<li>Модуль CRM</li>
+											<li>Модуль диагностики:
+
+												<ul class="access-list__inner">
+													<li>классическая нумерология;</li>
+													<li>прогностика;</li>
+													<li>психоматрица;</li>
+													<li>квадрат Ло-Шу;</li>
+													<li>матрица судьбы;</li>
+													<li>натальная карта;</li>
+												</ul>
+											</li>
+											<li>Стандартные отчеты для клиентов</li>
+										</ul>
+									</li>
+									<li class="tariffs-item__list-item"> <img src="images/green-info-icon.svg"
+											alt="check-icon"> Premium отчеты для клиентов</li>
+									<li class="tariffs-item__list-item"> <img src="images/green-info-icon.svg"
+											alt="check-icon"> Конструктор отчетов</li>
+									<li class="tariffs-item__list-item"> <img src="images/green-info-icon.svg"
+											alt="check-icon"> Доступ к методическим материалам (мини-курсам)</li>
+								</ul>
+
+								<div class="tariffs-dashed__block tariffs-dashed__block-green">
+									<ul>
+										<li>
+											<img src="images/green-info-icon.svg" alt="check-icon">
+											VIP доступ к закрытому чату для поиска клиентов
+										</li>
+										<li>
+											<img src="images/green-info-icon.svg" alt="check-icon">
+											VIP доступ для размещения своей рекламы на всех
+											медиа-площадках Нумероскоп.ру
+										</li>
+										<li>
+											<img src="images/green-check-icon.svg" alt="check-icon">
+											VIP доступ в группу для консультации по вопросам работы
+											с клиентами и применения нумерологии
+										</li>
+									</ul>
+								</div>
+
+								<div class="tariffs-price">
+									от 12 500 руб. в месяц
+								</div>
+
+								<div class="hero-btn__area d-flex flex-column justify-content-center gap-3 tariffs-btn">
+									<a class="btn btn-register" href="#" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">оплатить полностью</a>
+									<a class="btn btn-view" href="#">оплатить частями</a>
+									<a class="btn btn-purple" href="#">оформить рассрочку</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="training">
+			<div class="container">
+				<div class="title text-center">
+					<h2>
+						Как проходит <span class="training-span">обучение <img src="images/long-arrow-2.svg"
+								alt=""></span>
+					</h2>
+				</div>
+
+				<div class="row justify-content-between training-row">
+					<div class="col-lg-4">
+						<div class="training-item">
+							<img src="images/pc-icon.svg" alt="">
+							<p class="training-item__title">Онлайн платформа</p>
+							<p class="training-item__subtitle">Обучение проводится на специализированной
+								онлайн-платформе, доступной на смартфонах, планшетах и PC.</p>
+						</div>
+						<div class="training-item">
+							<img src="images/checklist-icon.svg" alt="">
+							<p class="training-item__title">Домашние задания на реальных данных</p>
+							<p class="training-item__subtitle">Все домашние задания будут выполняться только на основе
+								реальных данных - вас и ваших близких.
+								По каждому будет обратная связь от преподавателей.</p>
+						</div>
+						<div class="training-item">
+							<img src="images/numberlist-icon.svg" alt="">
+							<p class="training-item__title">Практика и ясность</p>
+							<p class="training-item__subtitle">Можно бесконечно читать и не понимать "как это работает".
+								Мы построили курс, после которого вы сможете глубоко понимать и применять нумерологию,
+								улучшая каждый день жизни на самом деле.</p>
+						</div>
+						<div class="training-item">
+							<img src="images/clock-icon.svg" alt="">
+							<p class="training-item__title">Вы сами управляете скоростью обучения</p>
+							<p class="training-item__subtitle">Информация подается постепенно взаимосвязанными блоками.
+								Достаточно выделять 3–5 часов в неделю
+								для оптимального усвоения.</p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="training-item">
+							<img src="images/click-icon.svg" alt="">
+							<p class="training-item__title">Специальный софт</p>
+							<p class="training-item__subtitle">Все необходимые расчеты вы будете делать онлайн прямо на
+								странице с уроком.</p>
+						</div>
+						<div class="training-item">
+							<img src="images/format-check-icon.svg" alt="">
+							<p class="training-item__title">Эффективный формат домашних заданий</p>
+							<p class="training-item__subtitle">Домашние задания разработаны таким образом, чтобы вы
+								погрузились на необходимую глубину знаний для получения результата. Порой они не
+								простые,
+								но выполнимые.</p>
+						</div>
+						<div class="training-item">
+							<img src="images/purple-star.svg" alt="">
+							<p class="training-item__title">Инновационная методология</p>
+							<p class="training-item__subtitle">Никаких долгих вебинаров с говорящей головой
+								и кучей "воды". Уроки построены с максимальным фокусом на получение прикладных знаний
+								и навыков. Проходите курс в удобном вам ритме</p>
+						</div>
+						<div class="training-item">
+							<img src="images/purple-verf-icon.svg" alt="">
+							<p class="training-item__title">Лицензия</p>
+							<p class="training-item__subtitle">После прохождения курса вы сможете официально
+								использовать наши авторские нумерологические описания для себя и своих клиентов.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="training-mobile__img">
+					<img src="images/training-bg.svg" alt="">
+				</div>
+
+				<div class="hero-btn__area d-flex flex-wrap justify-content-center gap-3 mt-5">
+					<a class="btn btn-register" href="#">зарегистрироваться</a>
+					<a class="btn btn-view" href="#">смотреть программу</a>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="reviews">
+			<div class="title text-center">
+				<h2>
+					Отзывы о курсе
+				</h2>
+			</div>
+
+			<div class="reviews-slider">
+				<!-- Swiper -->
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="reviews-item">
+								<img class="person-avatar" src="images/reviews-1.png" alt="">
+								<img class="quote-icon" src="images/quote-icon.svg" alt="">
+								<p class="reviews-text">Хочу выразить всей вашей команде огромную благодарность!Я прошла
+									уже не одно обучение по нумерологии, но благодаря вашей школе, хочется сказать, что
+									ПАЗЛ СЛОЖИЛСЯ. Несмотря на то, что я считаю себя хорошим нумерологом - оставался
+									осадочек, будто чего-то не хватает) После данного обучения - осадочек испарился.
+									Однозначно буду применять в своей работе такие методы как:вся нумерология
+									будущего,пирамида возможностей,нумерология имени,профориентация. Остальные на
+									запасе) Очень крутая платформа с обучением. Еще ни разу не встречалась с такими
+									подробными калькуляторами.Подача материала удобная. С проверкой домашнего задания
+									задержек не было. Только один раз возник момент, но это я сама не доглядела
+									комментарий с замечаниями.Наталья-куратор всегда помогала, на все вопросы
+									и непонятные моменты летела на помощь. Администратор здесь тоже всегда писал
+									человеческим языком и всегда подбадривал, что очень важно. Заканчиваю обучение очень
+									наполненная. Наполненная знаниями и приятными эмоциями
+									к вам!!!)))</p>
+
+								<p class="reviews-person">Анастасия Попова, Вологда</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="reviews-item">
+								<img class="person-avatar" src="images/reviews-2.png" alt="">
+								<img class="quote-icon" src="images/quote-icon.svg" alt="">
+								<p class="reviews-text">Здравствуйте, вот и подошло к концу мое обучение на прекрасной
+									платформе школы Нумероскопа, которая дала мне понимание и возможность заглянуть
+									внутрь себя, посмотреть на свой потенциал способностей и возможностей. Очень много
+									полезных вещей, совершенно уникальных вложений к урокам, характеризующих то или иное
+									число и не только. Спасибо вам, за ваш труд и умение подать информацию в том виде, в
+									котором она будет ясна для простого человека, желающего разобраться в себе и не
+									только. За большое количество упомянутых вами литературных источников и названий
+									трудов в теме нумерологии, которые позволят, при желании, еще больше расширить свой
+									кругозор и научиться понимать значения чисел. В начале пути, по мере прохождения
+									курса, было тяжеловато заставить себя включить голову и начать анализ своих
+									полученных результатов. Но после становилось все легче, так как не пропадал интерес
+									к обучающему материалу на всем протяжении курса». Большое Вам спасибо! Всего самого
+									лучшего, дальнейшего развития и учеников, желающих душой освоить курс!)</p>
+
+								<p class="reviews-person">Ларюшкина Анастасия, Москва</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="reviews-item">
+								<img class="person-avatar" src="images/reviews-3.png" alt="">
+								<img class="quote-icon" src="images/quote-icon.svg" alt="">
+								<p class="reviews-text">Большое спасибо за знания, которые я получил! Я желаю Вам и всей
+									команде Нумероскопа успехов, процветания и всего самого наилучшего! Я уже провел
+									несколько подборов профессий тех людей, с кем хорошо знаком и увидел, что многие
+									из них занимаются своим делом, а те кто нет, хотели бы заниматься именно своими
+									профессиями, но в силу незнания или
+									в силу обстоятельств им пришлось заниматься не тем.Честно говоря, я не ожидал такого
+									результата и такой информации.
+									Все в максимальном объеме, добавить нечего. Качество информации тоже на высшем
+									уровне. Все настолько подробно
+									и понятно, что нет слов. Особое внимание хотелось бы заострить на том, что сразу же
+									отсеивается все лишнее, ненужное
+									и всякого рода лжеинформация, которая не относится к нумерологии или относится
+									необоснованно. Еще стоит отметить, что всякого рода мистическая составляющая сведена
+									к минимуму. Плюс к этому, на мой взгляд, очень удачно представлена информация о том,
+									как выразить различные психотипы с помощью чисел, я считаю это очень полезным. Можно
+									еще много писать, не хватит слов, чтобы выразить, на сколько отличный курс. Огромное
+									спасибо!</p>
+
+								<p class="reviews-person">Михаил Фадеев, Москва</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="reviews-item">
+								<img class="person-avatar" src="images/reviews-1.png" alt="">
+								<img class="quote-icon" src="images/quote-icon.svg" alt="">
+								<p class="reviews-text">Хочу выразить всей вашей команде огромную благодарность!Я прошла
+									уже не одно обучение по нумерологии, но благодаря вашей школе, хочется сказать, что
+									ПАЗЛ СЛОЖИЛСЯ. Несмотря на то, что я считаю себя хорошим нумерологом - оставался
+									осадочек, будто чего-то не хватает) После данного обучения - осадочек испарился.
+									Однозначно буду применять в своей работе такие методы как:вся нумерология
+									будущего,пирамида возможностей,нумерология имени,профориентация. Остальные на
+									запасе) Очень крутая платформа с обучением. Еще ни разу не встречалась с такими
+									подробными калькуляторами.Подача материала удобная. С проверкой домашнего задания
+									задержек не было. Только один раз возник момент, но это я сама не доглядела
+									комментарий с замечаниями.Наталья-куратор всегда помогала, на все вопросы
+									и непонятные моменты летела на помощь. Администратор здесь тоже всегда писал
+									человеческим языком и всегда подбадривал, что очень важно. Заканчиваю обучение очень
+									наполненная. Наполненная знаниями и приятными эмоциями
+									к вам!!!)))</p>
+								<p class="reviews-person">Анастасия Попова, Вологда</p>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+
+				<div class="hero-btn__area d-flex justify-content-center gap-3 mt-5">
+					<a class="btn btn-register" href="#">показать еще отзывы</a>
+				</div>
+			</div>
+
+		</section>
+
+
+		<section class="contact">
+			<div class="container">
+
+				<div class="contact-block">
+					<div class="contact-item">
+						<div class="telegram-icon">
+							<img src="images/telegram-icon.svg" alt="telegram-icon">
+						</div>
+					</div>
+					<div class="contact-item">
+						<div class="title text-center">
+							<h2>
+								Остались вопросы? Звоните!
+							</h2>
+						</div>
+						<div class="phone-block">
+							<a href="tel:88003007010">
+								<svg width="16" height="18" viewBox="0 0 16 18" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M2.94481 7.46854C4.08782 10.2172 6.09202 12.5557 8.63776 14.1111L10.8579 12.2226C11.1405 11.9822 11.5115 11.9367 11.8313 12.0655C12.8534 12.4946 13.9627 12.7709 15.1333 12.8644C15.3817 12.8842 15.6122 13.0016 15.7743 13.1906C15.9363 13.3796 16.0165 13.6249 15.9972 13.8724L15.7429 17.1386C15.7237 17.3861 15.6065 17.6156 15.4173 17.7766C15.228 17.9375 14.9821 18.0168 14.7338 17.997C10.5113 17.6599 6.59188 15.6651 3.83773 12.4516C1.08359 9.23804 -0.279666 5.06893 0.0478607 0.861422C0.067127 0.613921 0.184273 0.384436 0.373528 0.223449C0.562783 0.0624622 0.808644 -0.016838 1.05702 0.00299309L4.33485 0.2647C4.58323 0.284531 4.81378 0.401869 4.97579 0.590901C5.1378 0.779933 5.21799 1.02517 5.19872 1.27268C5.10792 2.43918 5.20805 3.57398 5.4732 4.64683C5.55079 4.98167 5.44754 5.33964 5.16498 5.58L2.94481 7.46854Z"
+										fill="#1D68B8" />
+								</svg>
+
+								8 800 300 70 10</a>
+						</div>
+						<div class="email-block">
+							<p>Также можете связаться с нами по контактам ниже</p>
+							<a href="mailto:team@numeroscop.club"><img src="images/black-email.svg" alt="">
+								team@numeroscop.club</a>
+							<a href="mailto:team@numeroscop.club"><img src="images/black-telegram.svg" alt="">
+								team@numeroscop.club</a>
+						</div>
+					</div>
+					<div class="contact-item">
+						<div class="email-icon">
+							<img src="images/email-icon.svg" alt="email-icon">
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-block">
+					<div class="footer-logo">
+						<a class="navbar-brand" href="#"><img src="images/logo.svg" alt="logo" />
+							Нумероскоп.Клуб</a>
+						<a href="#" class="footer-copy">© 2024. Нумероскоп.Клуб</a>
+					</div>
+
+					<nav class="footer-nav">
+						<ul class="footer-nav__list">
+							<li><a href="">Политика конфиденциальности</a></li>
+							<li><a href="">Оферта</a></li>
+							<li><a href="">Условия расрочки</a></li>
+							<li><a href="">Согласие на обработку персональных данных</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h1 class="modal-title" id="exampleModalLabel">Оформление заказа</h1>
+					<p class="modal-subtitle">Выберите способ оплаты</p>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="radio-block">
+							<ul>
+								<li>
+									<input type="radio" id="f-option" name="selector">
+									<label for="f-option">Карта РФ</label>
+
+									<div class="check"></div>
+								</li>
+
+								<li>
+									<input type="radio" id="s-option" name="selector">
+									<label for="s-option">Зарубежная карта</label>
+
+									<div class="check">
+										<div class="inside"></div>
+									</div>
+								</li>
+
+								<li>
+									<input type="radio" id="t-option" name="selector">
+									<label for="t-option">Выставить счет</label>
+
+									<div class="check">
+										<div class="inside"></div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="modal-text__area">
+							<p class="modal-text__area-para">Заполните все данные верно. Мы отправим вам письмо и смс
+								для подтверждения оплаты</p>
+							<span class="modal-text__area-link">Используйте эти данные для входа на
+								<a href="#">numeroscop.club</a></span>
+						</div>
+
+						<div class="form-block">
+							<div class="mb-3">
+								<label for="exampleInputName" class="form-label">ФИО</label>
+								<input type="text" class="form-control" id="exampleInputName"
+									aria-describedby="nameHelp" placeholder="Иванов Иван Иванович">
+
+							</div>
+							<div class="mb-3">
+								<label for="exampleInputPhone" class="form-label">Телефон</label>
+								<input type="tel" class="form-control" id="exampleInputPhone"
+									aria-describedby="phoneHelp" placeholder="+7 ( _ _ _ ) _ _ _ - _ _ - _ _">
+
+							</div>
+							<div class="mb-3">
+								<label for="exampleInputEmail" class="form-label">Email</label>
+								<input type="email" class="form-control" id="exampleInputEmail"
+									aria-describedby="emailHelp" placeholder="example@mail.ru">
+
+							</div>
+						</div>
+
+						<div class="select-tariffs">
+							<p>Выбран тариф “Стандарт”</p>
+							<a href="#">О тарифе</a>
+						</div>
+
+						<div class="total-price">
+							<p>Итого:</p>
+							<span>99 000 руб.</span>
+						</div>
+
+						<div class="modal-checkbox">
+							<label class="checkbox" for="red">
+								<input type="checkbox" name="color" checked value="red" id="red">
+								<span class="checkmark"></span>
+								Я согласен (-на) на обработку <a href="#">персональных данных</a>
+							</label>
+
+							<label class="checkbox" for="black">
+								<input type="checkbox" name="color" checked value="black" id="black">
+								<span class="checkmark"></span>
+								Я ознакомлен (-на) с условиями <a href="#">лицензионного договора</a>
+							</label>
+						</div>
+
+						<div class="hero-btn__area d-flex flex-wrap justify-content-center gap-3">
+							<button type="submit" class="btn btn-register" href="#">перейти к оплате</button>
+
+						</div>
+
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
