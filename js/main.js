@@ -3,12 +3,16 @@ const swiper = new Swiper(".mySwiper", {
   spaceBetween: 30,
   centeredSlides: false,
   loop: true,
-
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
   breakpoints: {
     640: {
       slidesPerView: 1.7,
-      spaceBetween: 20,
+      spaceBetween: 30,
       centeredSlides: true,
+      loop: true,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
